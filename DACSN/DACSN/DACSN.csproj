@@ -95,9 +95,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="BangGiaDichVu.aspx" />
-    <Content Include="GioiThieu.aspx" />
-    <Content Include="HuongDan.aspx" />
     <Content Include="Images\1.jpg" />
     <Content Include="Images\2.jpg" />
     <Content Include="Images\3.jpg" />
@@ -108,6 +105,7 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Template.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -126,20 +124,6 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BangGiaDichVu.aspx.cs">
-      <DependentUpon>BangGiaDichVu.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="BangGiaDichVu.aspx.designer.cs">
-      <DependentUpon>BangGiaDichVu.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="GioiThieu.aspx.cs">
-      <DependentUpon>GioiThieu.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="GioiThieu.aspx.designer.cs">
-      <DependentUpon>GioiThieu.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -151,20 +135,6 @@
       <DependentUpon>HuongDan.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TimNguoiOGhep.aspx.cs">
-      <DependentUpon>TimNguoiOGhep.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="TimNguoiOGhep.aspx.designer.cs">
-      <DependentUpon>TimNguoiOGhep.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="TimPhongTro.aspx.cs">
-      <DependentUpon>TimPhongTro.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="TimPhongTro.aspx.designer.cs">
-      <DependentUpon>TimPhongTro.aspx</DependentUpon>
-    </Compile>
     <Compile Include="TrangChu.aspx.cs">
       <DependentUpon>TrangChu.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

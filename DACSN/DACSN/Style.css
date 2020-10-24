@@ -94,6 +94,8 @@
 	}
 	section{
 		width:900px;
+        height:800px;
+        max-height:none;
 		padding-top:5px;
         padding-left:8px;
 	}
@@ -205,11 +207,4 @@ div#left,div#right{
 .hinhlogo{
     width:500px;
     height:100px;
-}
-.huongdan {
-    font-size: 1.1rem;
-    line-height: 1.7;
-}
-table{
-    border:2px solid #ddd;
 }
