@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="TrangChu.aspx.cs" Inherits="DACSN.TrangChu" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="TimPhongTro.aspx.cs" Inherits="DACSN.TimPhongTro" %>
 
 <!DOCTYPE html>
 
@@ -9,7 +9,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
+        <div>
         <header>
 		<div id="logo">
             <img class="hinhlogo" src="Images/Logo.png" />
@@ -22,11 +22,11 @@
     	<div id="subnav">
             <ul>
                 <li><a href="TrangChu.aspx"><b>TRANG CHỦ</b></a></li>
-                <li><a href="TrangChu.aspx"><b>TÌM PHÒNG TRỌ</b></a></li>
+                <li><a href="TimPhongTro.aspx"><b>TÌM PHÒNG TRỌ</b></a></li>
                 <li><a href="TimNguoiOGhep.aspx"><b>TÌM NGƯỜI Ở GHÉP</b></a></li>
                 <li><a href="HuongDan.aspx"><b>HƯỚNG DẪN</b></a></li>
-                <li><a href="BangGiaDichVu.aspx"><b>BẢNG GIÁ DỊCH VỤ</b></a></li>
-                <li id="Cuoi"><a href="GioiThieu.aspx"><b>GỚI THIỆU</b></a></li>
+                <li><a href="TrangChu.aspx"><b>BẢNG GIÁ DỊCH VỤ</b></a></li>
+                <li id="Cuoi"><a href="TrangChu.aspx"><b>GỚI THIỆU</b></a></li>
             </ul>
        </div>
 	</nav>

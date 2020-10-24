@@ -206,3 +206,10 @@ div#left,div#right{
     width:500px;
     height:100px;
 }
+.huongdan {
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+table{
+    border:2px solid #ddd;
+}
