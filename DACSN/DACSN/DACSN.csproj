@@ -96,10 +96,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Images\1.jpg" />
+    <Content Include="Images\10.jpg" />
     <Content Include="Images\2.jpg" />
     <Content Include="Images\3.jpg" />
     <Content Include="Images\4.jpg" />
     <Content Include="Images\5.jpg" />
+    <Content Include="Images\6.jpg" />
+    <Content Include="Images\7.jpg" />
+    <Content Include="Images\8.jpg" />
+    <Content Include="Images\9.jpg" />
     <Content Include="Images\Logo.png" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
@@ -119,6 +124,16 @@
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Style.css" />
     <Content Include="TimNguoiOGhep.aspx" />
+    <Content Include="TimNguoiOGhep\1.jpg" />
+    <Content Include="TimNguoiOGhep\10.jpg" />
+    <Content Include="TimNguoiOGhep\2.jpg" />
+    <Content Include="TimNguoiOGhep\3.jpg" />
+    <Content Include="TimNguoiOGhep\4.jpg" />
+    <Content Include="TimNguoiOGhep\5.jpg" />
+    <Content Include="TimNguoiOGhep\6.jpg" />
+    <Content Include="TimNguoiOGhep\7.jpg" />
+    <Content Include="TimNguoiOGhep\8.jpg" />
+    <Content Include="TimNguoiOGhep\9.jpg" />
     <Content Include="TimPhongTro.aspx" />
     <Content Include="TrangChu.aspx" />
     <Content Include="Web.config" />
@@ -146,7 +161,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="TimNguoiOGhep\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
